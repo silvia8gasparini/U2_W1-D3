@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: rgb(251, 247, 228);
+    width: 100%;
+    border-radius: 100px;
+    margin-bottom: 1.5em;
+  padding: 4em 0em;
+  display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+
+nav ul{
+margin: 0;
+padding: 1em 0em;
+list-style-type: none;
+align-items: center;
+text-align: center;
+display: flex;
+flex-direction: row;
+}
+
+nav ul li a {
+    background-color: rgb(243, 223,140);
+    color: rgb(98, 36,10);
+    font-size: 1.5rem;
+    border-radius: 100px;
+    padding: 1em 1em;
+    margin: 0 0.7em;
+    text-decoration: none;
+
+
+}
+
+.bee {
+    font-weight: bold;
+font-size: 2em;
+    padding: 1em 1em;
+}
+
+img {
+    width: 60px;
+    padding: 0px 30px 0 0;
+    margin: -12px 0;
+}
+

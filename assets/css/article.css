@@ -1,0 +1,24 @@
+article {
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgb(251, 247, 228) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(98, 36,10);
+}
+
+h3 {
+    padding: 2em 1.5em 0em 1.5em;
+}
+
+p {
+    padding: 0em 1.5em 0em 1.5em;
+}
+
+img {
+    width: 80%;
+    align-self: center;
+    padding: 0em 1.5em 1.5em 1.5em;
+}
+

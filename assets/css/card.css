@@ -1,0 +1,52 @@
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 250px;
+    border-radius: 90px;
+    background-color: rgb(251, 247, 228);
+    display:flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card-content{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    color: rgb(98, 36,10);
+}
+
+
+.card-content h3 {
+    align-self: baseline;
+}
+
+
+span {
+text-decoration: none;
+font-size: normal;
+font-weight: lighter;
+}
+
+.price {
+    align-self: flex-end;
+}
+
+.card-content button {
+    background-color: rgb(243, 223,140);
+    color: rgb(98, 36,10);
+    border: none;
+    border-radius: 70px;
+    width: 60%;
+    align-self: center;
+    padding: 1em 2em;
+}
